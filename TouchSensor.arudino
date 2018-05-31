@@ -1,3 +1,6 @@
+#######################################
+# https://www.arduino.cc/reference/en/#
+#######################################
 <p>void loop() {</p><p>  fingerprintID = getFingerprintID(); <strong>//We scan the fingerprint here</strong>
   delay(50);
   if(fingerprintID == 1) <strong>//We have found a valid fingerprint with the id 1</strong>
